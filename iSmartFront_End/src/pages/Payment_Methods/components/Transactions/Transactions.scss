@@ -1,0 +1,42 @@
+.transactions-card {
+    margin-left: 8.5px; // Equivalent to ms={{ lg: "24px" }}
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .transactions-card .card-header {
+    margin-bottom: 12px;
+  }
+  
+  .transactions-card .card-header .flex {
+    width: 100%;
+  }
+  
+  .transactions-card .card-header .flex .text {
+    font-size: lg;
+    font-weight: bold;
+  }
+  
+  .transactions-card .card-header .flex .icon {
+    margin-left: 262px;
+    margin-right: 6px;
+  }
+  
+  .transactions-card .card-header .flex .text {
+    color: gray.400;
+    font-size: sm;
+    font-weight: semibold;
+  }
+  
+  .transactions-card .card-body {
+    width: 100%;
+  }
+  
+  .transactions-card .card-body .text {
+    color: gray.400;
+    font-size: sm;
+    font-weight: semibold;
+    margin: 12px 0;
+  }
+  

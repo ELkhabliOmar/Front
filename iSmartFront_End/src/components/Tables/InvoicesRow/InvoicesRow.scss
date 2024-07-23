@@ -1,0 +1,48 @@
+.invoices-row {
+  margin: 1rem 0;
+  
+  @media (min-width: 1200px) {
+    margin: 0.2px 0;
+  }
+
+  .chakra-flex {
+    direction: column;
+
+    .chakra-text {
+      &.date {
+        font-size: md;
+        font-weight: bold;
+      }
+
+      &.code, &.price {
+        font-size: sm;
+        font-weight: semibold;
+        color: grey;
+      }
+    }
+  }
+
+  .chakra-button {
+    padding: 16px;
+    background: transparent;
+    border: none;
+
+    .chakra-flex {
+      padding: 12px;
+      align-items: center;
+
+      .chakra-icon {
+        width: 20px;
+        height: auto;
+        margin-right: 5px;
+        color: #8B0000; // Dark Red Color
+      }
+
+      .chakra-text {
+        font-size: md;
+        font-weight: bold;
+        color: red;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.invoices-card {
+    padding: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 10px;
+    background: white;
+    border-radius: 10px;
+  
+    .chakra-flex {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      width: 100%;
+  
+      .chakra-text {
+        font-size: lg;
+        font-weight: bold;
+        color: #4FD1C5; // Cyan Color
+      }
+  
+      .chakra-button {
+        border-color: #4FD1C5; // Cyan Color
+        border-radius: 15px;
+        variant: outline;
+        color: #4FD1C5; // Cyan Color
+        font-size: xs;
+        padding: 8px 32px;
+      }
+    }
+  
+    .chakra-flex.direction-column {
+      width: 100%;
+    }
+  }
+  

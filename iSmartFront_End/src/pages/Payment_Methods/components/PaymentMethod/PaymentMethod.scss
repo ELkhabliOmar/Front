@@ -1,0 +1,36 @@
+.add-card-button {
+  border-radius: 14px;
+  width: 130px;
+  height: 40px;
+}
+
+.card-info {
+  padding: 1rem;
+  background: white;
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  margin-right: 26px;
+  margin-left: 5px;
+
+  .chakra-flex {
+    align-items: center;
+
+    .chakra-text {
+      font-size: md;
+      font-weight: bold;
+      color: gray.700;
+    }
+  }
+
+  .chakra-button {
+    padding: 0px;
+    background: transparent;
+    width: 16px;
+    height: 16px;
+    border: none;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../styles/varaibles.scss";
+.page-cntr__kpi{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+}
+
+.kpi_title{
+    color: $text-color;
+    font-size: 1.5rem;
+}
+
+.page-cntr{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+

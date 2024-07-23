@@ -1,0 +1,66 @@
+.transaction-row {
+    margin: 0.5rem 0;
+    justify-content: space-between;
+  
+    .icon-box {
+      margin-right: 12px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+  
+      &.green {
+        color: #48BB78;
+      }
+  
+      &.red {
+        color: #FC8181;
+      }
+  
+      &.grey {
+        color: gray.400;
+      }
+    }
+  
+    .price {
+      &.green {
+        color: #48BB78;
+      }
+  
+      &.red {
+        color: #FC8181;
+      }
+  
+      &.default {
+        color: inherit;
+      }
+    }
+  
+    .chakra-flex {
+      align-items: center;
+      flex-direction: column;
+  
+      .chakra-text {
+        &.name {
+          font-size: md;
+          @media (min-width: 768px) {
+            font-size: lg;
+          }
+          font-weight: bold;
+          color: gray.700;
+        }
+  
+        &.date {
+          font-size: xs;
+          @media (min-width: 768px) {
+            font-size: sm;
+          }
+          font-weight: semibold;
+          color: #A0AEC0;
+        }
+      }
+    }
+  }
+  

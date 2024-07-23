@@ -1,0 +1,39 @@
+.Card {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+  }
+  
+  .CardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 14px 0;
+  }
+  
+  .IconBox {
+    height: 60px;
+    width: 60px;
+    background-color: teal.300;
+  }
+  
+  .TitleText {
+    font-size: md;
+    font-weight: bold;
+  }
+  
+  .DescriptionText {
+    margin-bottom: 28px;
+    font-size: xs;
+    color: gray.400;
+    font-weight: semibold;
+  }
+  
+  .AmountText {
+    font-size: lg;
+    font-weight: bold;
+  }
+  

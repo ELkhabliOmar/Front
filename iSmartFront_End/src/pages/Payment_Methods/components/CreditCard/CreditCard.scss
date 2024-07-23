@@ -1,0 +1,63 @@
+.credit-card {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    width: 380px;
+    height: 250px;
+    position: relative;
+  
+    .chakra-text {
+      &.title {
+        font-size: lg;
+        font-weight: bold;
+      }
+  
+      &.number {
+        font-size: lg;
+        font-weight: bold;
+        margin-top: 60px;
+        letter-spacing: 2px;
+      }
+  
+      &.validity, &.cvv {
+        font-size: xs;
+        letter-spacing: 1px;
+      }
+  
+      &.validity-data, &.cvv-code {
+        font-size: lg;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+    }
+  
+    .icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+    .details {
+      display: flex;
+      justify-content: space-between;
+      margin-top: auto;
+  
+      .detail-box {
+        .name {
+          font-size: xs;
+          margin-top: 40px;
+          letter-spacing: 1px;
+        }
+  
+        .value {
+          font-size: lg;
+          font-weight: bold;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+  
